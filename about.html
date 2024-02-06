@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV Eggs</title>
+    <link rel="icon" type="image/x-icon" href="/images/SV EGGS logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+                                                                                            <!--we extraced from google fonts website-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet">  <!--for fonts-->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> <!--for icons-->
+</head>
+<body>
+
+                                                                                                <!-- Main HEader section-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/SV EGGS logo.jpg" alt="SV Eggs LOGO"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="index.html#buy">Where to BUY</a></li>
+                    <li><a href="index.html#certid">CERTIFICATES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About US</h1>
+    </section>
+
+                                                                                                     <!--About Section-->     
+                                                                                                     
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>What our FOUNDER's say..</h1>
+                <p>Greetings, <br><br>
+
+                    We are honored to introduce Ourselves "GV RAMA REDDY" & "G PAVAN REDDY" <br> as the Founders of <b>SV EGGS Poultry. </b>
+                    SV EGGS is more than just a business; <br> it is a labor of love that represents
+                    my deep-rooted <b>Passion for sustainable <br> farming </b> and providing the<b>highest quality</b>
+                    <b>eggs to our valued customers.  </b><br><br>
+                    
+                    When we embarked on this journey, We envisioned a place where hens could flourish <br>
+                    in a pest free and nurturing environment.Our farm is designed to ensure the well-being <br>
+                    of our hens, allowing them to enjoy fresh air and sunlight, and indulge in a <br>
+                    nutritious diet. Happy hens lay the best eggs, and we take pride in the <br>
+                    exceptional quality that comes from their contented lives. <br><br>
+                    
+                    Our commitment to sustainability drives every aspect of our operation. <br>
+                    From environmentally conscious farming practices to responsible waste management,<br>
+                    we strive to minimize our ecological impact.It is our firm belief that by caring <br>
+                    for our planet, we are nurturing the future for generations to come. <br><br>
+                    
+                    At SV EGGS Poultry, we prioritize excellence in every egg we produce. <br>
+                    Our dedicated team of farmers and experts work tirelessly to maintain the <br>
+                    highest standards of hygiene, quality, and food safety. Each egg is a <br>
+                    testament to the meticulous care and attention we invest in our craft. <br><br>
+                    
+                    But SV EGGS is not just about eggs; it's about fostering individual who value <br>
+                    exceptional food and responsible farming. <b> I invite you to visit our farm, <br>
+                    witness our practices firsthand, and experience the connection between our <br>
+                    hens and the incredible eggs they lay. </b><br><br>
+                    
+                    As the Founder's, We committed to fostering transparency and open communication <br>
+                    with our customers. Your feedback is valuable to us, and it drives us to continuously <br>
+                    improve and offer an even better experience. <br><br>
+                    
+                    <b>We extend our heartfelt gratitude to all our customers who have chosen SV EGGS <br>
+                        Poultry as their source of wholesome, delicious eggs.Your support allows us to <br>
+                        continue our mission of providing finest to your table. <br><br>
+                       
+                       Thank you for being a part of the <i>SV EGGS family</i></b>
+                </p>
+                <a href="https://www.youtube.com/shorts/i75FuVDgv7k" target="_blank" class="hero-btn red-btn">Watch Now</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/founder1.jpg" alt="">
+                <img src="images/founder2.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+                                                                                                        <!--footer-->
+    <section class="footer">
+        <hr class="hr-footerstyle">
+        <h4>Find us Around The WEB</h4>
+        <p>We ACCEPT orders via any of our socialmedia channel</p>
+
+        <div class="icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://wa.me/919177826264" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+
+        <p>made with <i class="fa fa-heart" aria-hidden="true"></i> on "SV EGGS" by <a href="https://www.linkedin.com/in/atchi-reddy-chirla-a6bbb5201" target="_blank">Atchi</a></p>
+        <p>&copy; 2023 SV EGGS Poultry. All Rights Reserved.</p>
+    </section>                                                                                                             
+
+                                                                                        <!--Embedding Whatsapp link-->
+    <div class="whatsapp_maindiv">
+       <a href="https://wa.me/919177826264" target="_blank"> <img src="images/whatsapplogofor chat.png" alt="whatsappChat" class="whatsapp_imgdiv"> </a>
+    </div>
+
+<!-- JAVA SCRIPT FOR TOGGLE MENU -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://kit.fontawesome.com/97166b8deb.js" crossorigin="anonymous"></script> <!--this id for icons new way-->
+
+</body>
+</html>
